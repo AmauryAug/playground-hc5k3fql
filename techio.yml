@@ -1,4 +1,15 @@
-title: Simple C Template
+title: Mon Playground C
 plan:
-- title: C Snippet
-  statement: statement.md
+  - title: "Introduction au C"
+    statement: markdowns/introduction.md
+    language: c
+    setup:
+      runner: "techio/c-runner:1.12.0"
+    projects:
+      runner:
+        root: "/project/target"
+        languages:
+          c:
+            files:
+              - "**/*.c"
+              - "**/*.h"
