@@ -1,7 +1,7 @@
 title: Mon Playground C
 plan:
   - title: "Introduction au C"
-    statement: markdowns/introduction.md
+    statement: introduction.md
     language: c
     setup:
       runner: "techio/c-runner:1.12.0"
