@@ -2,7 +2,7 @@
 
 Voici un simple programme en C :
 
-```c runnable
+```C runnable
 #include <stdio.h>
 
 int main() {
