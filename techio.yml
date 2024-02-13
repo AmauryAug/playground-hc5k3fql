@@ -1,15 +1,11 @@
 title: Mon Playground C
 plan:
   - title: "Introduction au C"
-    statement: introduction.md
+    statement: markdowns/introduction.md
     language: c
     setup:
       runner: "techio/c-runner:1.12.0"
     projects:
-      runner:
-        root: "/project/target"
-        languages:
-          c:
-            files:
-              - "**/*.c"
-              - "**/*.h"
+      project:
+        root: "/project"
+        runner: "techio/c-runner:1.12.0"
