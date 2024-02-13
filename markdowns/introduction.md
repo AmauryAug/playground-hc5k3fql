@@ -9,6 +9,7 @@ int main() {
     printf("Hello, Tech.io!\n");
     return 0;
 }
+
 ```
 
 Cliquez sur "Run" pour exécuter ce code.
